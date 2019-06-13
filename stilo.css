@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: lightskyblue;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: lightpink;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+a{
+
+    color:white;
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+
+
+nav img{
+    height: 87px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    /*display: none;*/
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    transform: translateX(100vw);
+    transition: 2s;
+}
+
+.ativo{
+    /*display: flex;*/
+    transform: translateX(0);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100vw;
+}
+
+main img{
+    width: 400px;
+}
+
+.roda-jequiti{
+    transform: rotate(1000000000000000deg);
+    transition: 40s;
+}
